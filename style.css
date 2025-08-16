@@ -1,0 +1,41 @@
+body {
+  background: #f0f0f0;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.card {
+  background: white;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 320px;
+  margin: auto;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img {
+  width: 100px;
+  border-radius: 50%;
+}
+
+.social-links {
+  margin-top: 15px;
+}
+
+.social-links a {
+  margin: 0 10px;
+  font-size: 24px;
+  color: #333;
+  transition: color 0.3s;
+}
+
+.social-links a:hover {
+  color: #0077b5; /* LinkedIn Blue for hover */
+}
